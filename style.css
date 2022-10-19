@@ -39,7 +39,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 350px;
+    max-width: 350px;
     height: 595px;
     margin: 20px;
     padding: 25px;
