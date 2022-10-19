@@ -201,10 +201,18 @@ section .nft_creator img{
  }
 
 
- @media only screen and (max-height: 800px) {
+ @media only screen and (max-width: 370px) {
     header:hover .view_icon{
         position: fixed;
         visibility: visible;
         top: 30%;
     }
+
+    .nft_price span {
+        font-size: 0.85rem;
+    }
+
+    .nft_creator p{
+        font-size: 0.95rem;
+     }
 }
